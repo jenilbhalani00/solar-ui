@@ -65,6 +65,7 @@ const Login = () => {
                 className="border-black p-1 rounded placeholder:text-[19px] lg:w-[300px] md:w-[300px] sm:w-[230px] border-[1px] outline-none border-l-transparent border-r-transparent border-t-transparent "
                 type="email"
                 placeholder="Enter your email"
+                value={email}
                 onChange={(e) => {
                   setEmail(e.target.value);
                 }}
@@ -76,6 +77,7 @@ const Login = () => {
                 className="border-black p-1 rounded lg:w-[300px] md:w-[300px] sm:w-[230px]  placeholder:text-[19px] mt-[30px] border-[1px] outline-none border-l-transparent border-r-transparent border-t-transparent "
                 type="password"
                 placeholder="Enter your password"
+                value={password}
                 onChange={(e) => {
                   setPassword(e.target.value);
                 }}
